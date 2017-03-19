@@ -14,7 +14,7 @@ import pl.com.bottega.ecommerce.sales.domain.invoicing.InvoiceFactory;
 import pl.com.bottega.ecommerce.sales.domain.invoicing.InvoiceRequest;
 import pl.com.bottega.ecommerce.sales.domain.invoicing.TaxPolicy;
 
-class BookKeeperTest {
+public class BookKeeperTest {
     @Test
     public void sampleTest(){
         InvoiceFactory invoiceFactory = Mockito.mock(InvoiceFactory.class);
